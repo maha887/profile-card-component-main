@@ -1,0 +1,91 @@
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  background-color: #19a2ae;
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat , no-repeat;
+  background-position: right 660px bottom 100px , left 688px top 285px;
+  text-align: -webkit-center;
+  font-size: 18px;
+}
+
+body .main {
+  background-image: url("../images/bg-pattern-card.svg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: white;
+  width: 300px;
+  height: 330px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 150px;
+}
+
+body .main .first-section {
+  border-bottom: 1px solid lightgray;
+}
+
+body .main .first-section img {
+  border: 6px solid white;
+  border-radius: 50%;
+  margin-top: 65px;
+  margin-bottom: 5px;
+}
+
+body .main .first-section .name {
+  font-weight: 700;
+}
+
+body .main .first-section .name span {
+  color: #969696;
+  font-weight: 400;
+  padding-left: 3px;
+}
+
+body .main .first-section .city {
+  font-weight: 400;
+  color: #969696;
+  font-size: 13px;
+  margin-top: -10px;
+}
+
+body .main .second-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 34px;
+  margin-top: 25px;
+}
+
+body .main .second-section .like, body .main .second-section .photo {
+  margin-left: 43px;
+}
+
+body .main .second-section .bold {
+  font-weight: 700;
+}
+
+body .main .second-section .light {
+  font-weight: 400;
+  color: #969696;
+  font-size: 10px;
+  margin-top: -17px;
+  letter-spacing: 1px;
+}
+
+body .attribution {
+  margin-top: 30px;
+  font-size: 11px;
+  text-align: center;
+}
+
+body .attribution a {
+  color: #3e52a3;
+}
+
+@media (max-width: 1000px) {
+  body {
+    background-position: right 164px bottom 100px , left 170px top 216px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

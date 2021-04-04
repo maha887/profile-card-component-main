@@ -1,0 +1,96 @@
+$Dark-cyan: hsl(185, 75%, 39%);
+$Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+$Dark-grayish-blue: hsl(227, 10%, 46%);
+$Dark-gray: hsl(0, 0%, 59%);
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  background-color: $Dark-cyan;
+  background-image: url("../images/bg-pattern-top.svg") , url("../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat , no-repeat;
+  background-position: right 660px bottom 100px , left 688px top 285px;
+  text-align: -webkit-center;
+  font-size: 18px;
+  
+
+  .main {
+    background-image: url("../images/bg-pattern-card.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: white;
+    width: 300px;
+    height: 330px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 150px;
+    
+    .first-section{
+      border-bottom: 1px solid lightgray;
+      
+      img{
+        border: 6px solid white;
+        border-radius: 50%;
+        margin-top: 65px;
+        margin-bottom: 5px;
+      }
+
+      .name{
+        font-weight: 700;
+
+        span{
+          color: $Dark-gray;
+          font-weight: 400;
+          padding-left: 3px;
+        }
+      }
+
+      .city{
+        font-weight: 400;
+        color: $Dark-gray;
+        font-size: 13px;
+        margin-top: -10px;
+      }
+    }
+
+    .second-section{
+        display: flex;
+        margin-left: 34px;
+        margin-top: 25px;
+        
+        .like , .photo{
+          margin-left: 43px;
+        }
+
+        .bold{
+          font-weight: 700;
+        }
+
+        .light{
+        font-weight: 400;
+        color: $Dark-gray;
+        font-size: 10px;
+        margin-top: -17px;
+        letter-spacing: 1px;
+        
+        }
+    }
+  }
+
+  .attribution {
+    margin-top: 30px;
+    font-size: 11px;
+    text-align: center;
+
+    a {
+      color: hsl(228, 45%, 44%);
+    }
+  }
+}
+
+@media(max-width:1000px){
+  body{
+    background-position: right 164px bottom 100px , left 170px top 216px;
+
+  }
+}
